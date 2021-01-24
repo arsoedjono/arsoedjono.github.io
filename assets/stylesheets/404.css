@@ -1,0 +1,10 @@
+* {
+  font-family: Monaco, monospace;
+  color: #444;
+  text-align: center;
+}
+
+canvas {
+  position: absolute;
+  transform: translateX(-50%);
+}

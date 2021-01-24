@@ -1,25 +1,14 @@
----
-permalink: /404.html
-layout: default
----
-
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="assets/stylesheets/404.css">
+    <script src="assets/scripts/404.js"></script>
+    <title>404</title>
+  </head>
+  <body onload="onLoad();">
+    <h1>404 - page not found</h1>
+    <h2>you're lost! find your way home!</h2>
+    <canvas id="maze"></canvas>
+    <canvas id="game"></canvas>
+  </body>
+</html>
