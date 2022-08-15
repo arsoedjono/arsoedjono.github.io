@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  {%- include head.html -%}
+
+  <body>
+    {{ content }}
+  </body>
+
+  <script src="{{ '/assets/scripts/' | append: page.layout | append: '.js' | relative_url }}"></script>
+</html>

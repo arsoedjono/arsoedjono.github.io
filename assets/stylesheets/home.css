@@ -1,0 +1,73 @@
+.canvas {
+  display: block;
+  max-width: 1200px;
+  margin: 0;
+  padding: 76px;
+}
+
+.divider {
+  border-bottom: 1px solid #f26447;
+  border-bottom-style: dotted;
+}
+
+.header {
+  margin-bottom: 24px;
+}
+
+.header > img {
+  max-width: 150px;
+  width: 100%;
+  height: auto;
+}
+
+.profile {
+  margin: 12px 0;
+}
+
+.profile > .name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.profile > .occupation {
+  font-size: 14px;
+}
+
+p.welcome {
+  font-size: 44px;
+  font-weight: bold;
+  margin: 55px auto;
+}
+
+ul.menu {
+  display: inline-block;
+  float: none;
+  list-style: none;
+}
+
+ul.menu > li {
+  border: 1px dotted #f26447;
+  cursor: pointer;
+  display: inline-block;
+  float: none;
+  letter-spacing: 1px;
+  margin-right: 10px;
+  padding: 24px 8px;
+  text-transform: uppercase;
+  width: 130px;
+}
+
+ul.menu > li:hover {
+  background-color: #eee;
+  border: 1px solid #f26447;
+  font-weight: bold;
+}
+
+ul.menu > li:last-child {
+  margin-right: 0px;
+}
+
+ul.menu > li > a {
+  color: black;
+}

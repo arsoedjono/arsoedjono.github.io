@@ -18,20 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: arsoedjono web playground
+title: Welcome to My Playground!
 email: arsoedjono@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am Aranda, a Test Engineer from Jakarta, Indonesia who likes coding experiments.
-  Ruby is my main programming language.
-  I am using this site as my playground and post my experience.
-  Hope you enjoy!
+  arsoedjono's playground site
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: arsoedjono
 github_username:  arsoedjono
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 
