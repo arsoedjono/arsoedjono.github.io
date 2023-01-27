@@ -212,11 +212,9 @@ function movePlayer(event) {
   }
 }
 
-function onLoad() {
-  generateMaze();
-  generateGame(startX, startY);
+generateMaze();
+generateGame(startX, startY);
 
-  player = new Player;
+player = new Player;
 
-  document.addEventListener("keydown", movePlayer);
-}
+document.addEventListener("keydown", movePlayer);
