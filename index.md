@@ -1,7 +1,8 @@
 ---
+id: home
 layout: base
 ---
 
-Nothing here yet...
+# Nothing here yet...
 
-Try the [404 game](/404)!
+Try [this game](/404)!

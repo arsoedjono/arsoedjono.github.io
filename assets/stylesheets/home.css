@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Hack";
+  font-weight: normal;
+  src: url("../fonts/Hack-Regular.ttf");
+}
+
+* {
+  font-family: "Hack";
+}
+
+body {
+  margin-top: 20%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+p>a {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  color: royalblue;
+  font-weight: bold;
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+}
