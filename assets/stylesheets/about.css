@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  height: calc(100vh - 140px);
+  margin: 70px 70px;
+}
+
+section {
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  padding: 30px;
+}
+
+.right {
+  display: grid;
+  grid-template-rows: 20% auto 10%;
+  margin-left: 1.5rem;
+}
+
+.right>section:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
