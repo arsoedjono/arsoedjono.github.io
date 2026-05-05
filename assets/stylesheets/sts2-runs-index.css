@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: radial-gradient(ellipse at 50% 20%, #1c1408 0%, #0a0602 60%);
+  background-attachment: fixed;
+  color: #e5e7eb;
+  font-family: 'Kreon', serif;
+  min-height: 100vh;
+}
+
+.sts2-index-page {
+  padding: 40px 28px;
+}
+
+.index-header {
+  margin-bottom: 28px;
+  border-bottom: 1px solid #2a1f0e;
+  padding-bottom: 14px;
+}
+
+.index-header h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #d4a017;
+  letter-spacing: 0.02em;
+}
+
+.runs-table-wrap {
+  overflow-x: auto;
+}
+
+.runs-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+.runs-table th {
+  text-align: left;
+  padding: 8px 14px;
+  color: #d4a017;
+  font-weight: 600;
+  border-bottom: 1px solid #2a1f0e;
+  white-space: nowrap;
+}
+
+.runs-table td {
+  padding: 10px 14px;
+  border-bottom: 1px solid #1a1408;
+  vertical-align: middle;
+}
+
+.run-row:hover td {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.char-cell { font-weight: 600; }
+
+.char-ironclad { color: #f87171; }
+.char-silent   { color: #4ade80; }
+.char-defect   { color: #60a5fa; }
+.char-watcher  { color: #c084fc; }
+
+.outcome-cell { font-weight: 500; }
+.outcome-defeat  { color: #f87171; }
+.outcome-victory { color: #86efac; }
+
+.num-cell { color: #e5e7eb; }
+
+.dim-cell { color: #6b7280; font-size: 0.82rem; }
+
+.seed-link {
+  color: #c8a027;
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  font-size: 0.88rem;
+}
+
+.seed-link:hover { text-decoration: underline; }
+
+.empty-cell {
+  text-align: center;
+  color: #6b7280;
+  padding: 32px;
+  font-style: italic;
+}

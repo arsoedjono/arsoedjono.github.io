@@ -1,0 +1,298 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: radial-gradient(ellipse at 50% 20%, #1c1408 0%, #0a0602 60%);
+  background-attachment: fixed;
+  color: #e5e7eb;
+  font-family: 'Kreon', serif;
+  min-height: 100vh;
+}
+
+/* ── Header ─────────────────────────────────────────── */
+
+.run-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 14px 28px;
+  background: rgba(0, 0, 0, 0.35);
+  border-bottom: 1px solid #2a1f0e;
+}
+
+.char-portrait {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 2px solid #8b5e3c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  /* placeholder — override per character class */
+  background: #2d1a0a;
+  background-image: var(--portrait-url, none);
+  background-size: cover;
+  background-position: center;
+}
+
+.char-ironclad { border-color: #c2410c; background: #3b0a0a; }
+.char-silent   { border-color: #15803d; background: #0a2d15; }
+.char-defect   { border-color: #1d4ed8; background: #0a1535; }
+.char-watcher  { border-color: #7c3aed; background: #1a0a35; }
+
+.char-initial { color: #e5e7eb; user-select: none; }
+
+.run-stats {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex: 1;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.stat-icon { font-size: 0.9rem; }
+
+.hp-icon   { color: #ef4444; }
+.gold-icon { color: #f59e0b; font-size: 0.7rem; }
+
+.stat-value { color: #e5e7eb; }
+
+.stat-energy {
+  display: flex;
+  gap: 4px;
+}
+
+.energy-pip {
+  display: block;
+  width: 38px;
+  height: 13px;
+  border-radius: 7px;
+  background: #374151;
+  border: 1px solid #4b5563;
+}
+
+.run-meta {
+  text-align: right;
+  font-size: 0.78rem;
+  color: #d4a017;
+  line-height: 1.55;
+  flex-shrink: 0;
+}
+
+/* ── Outcome quote ───────────────────────────────────── */
+
+.outcome-quote {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.05rem;
+  padding: 14px 40px;
+  color: #c8a027;
+}
+
+.outcome-victory { color: #86efac; }
+
+/* ── Acts ────────────────────────────────────────────── */
+
+.acts {
+  padding: 20px 28px 12px;
+}
+
+.act-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.act-label {
+  width: 8rem;
+  color: #d4a017;
+  font-weight: 600;
+  font-size: 0.95rem;
+  flex-shrink: 0;
+}
+
+.rooms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.room {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.85);
+  cursor: default;
+  user-select: none;
+  /* placeholder for sprite swap */
+  background-image: var(--icon-url, none);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.room-monster { background-color: #4b5563; }
+.room-elite   { background-color: #c2410c; }
+.room-boss    { background-color: #7c3aed; }
+.room-event   { background-color: #92400e; }
+.room-rest    { background-color: #1d4ed8; }
+.room-shop    { background-color: #065f46; }
+.room-chest   { background-color: #78350f; }
+
+/* hide letter label when a background image is set */
+.room[style*="--icon-url"] { font-size: 0; }
+
+/* ── Section headings ────────────────────────────────── */
+
+.section-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #d4a017;
+  margin-bottom: 12px;
+  letter-spacing: 0.01em;
+}
+
+/* ── Relics ──────────────────────────────────────────── */
+
+.relics {
+  padding: 16px 28px;
+  border-top: 1px solid #2a1f0e;
+}
+
+.relic-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.relic {
+  position: relative;
+  width: 54px;
+  height: 54px;
+  border-radius: 4px;
+  border: 2px solid var(--relic-border, #4b5563);
+  background: #12100a;
+  cursor: default;
+}
+
+/* tier border colors */
+.relic-starter  { --relic-border: #6b7280; }
+.relic-common   { --relic-border: #9ca3af; }
+.relic-uncommon { --relic-border: #4ade80; }
+.relic-rare     { --relic-border: #fbbf24; }
+.relic-ancient  { --relic-border: #f87171; }
+.relic-event    { --relic-border: #38bdf8; }
+
+.relic-icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: var(--icon-url, none);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 3px;
+}
+
+/* CSS tooltip via data-name */
+.relic::after {
+  content: attr(data-name);
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(10, 6, 2, 0.92);
+  color: #e5e7eb;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+  border: 1px solid #2a1f0e;
+  z-index: 10;
+}
+
+.relic:hover::after { opacity: 1; }
+
+/* ── Cards ───────────────────────────────────────────── */
+
+.cards {
+  padding: 16px 28px 28px;
+  border-top: 1px solid #2a1f0e;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 24px;
+  row-gap: 5px;
+}
+
+.card-entry {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.card-icon {
+  width: 14px;
+  height: 20px;
+  border-radius: 2px;
+  flex-shrink: 0;
+  background-image: var(--icon-url, none);
+  background-size: cover;
+  background-position: center;
+}
+
+/* tier icon placeholder colors */
+.card-starter  .card-icon { background-color: #6b7280; }
+.card-common   .card-icon { background-color: #9ca3af; }
+.card-uncommon .card-icon { background-color: #4ade80; }
+.card-rare     .card-icon { background-color: #fbbf24; }
+.card-curse    .card-icon { background-color: #a855f7; }
+.card-event    .card-icon { background-color: #38bdf8; }
+
+.card-name {
+  font-size: 0.88rem;
+  color: #e5e7eb;
+  line-height: 1.3;
+}
+
+/* upgraded cards show tier color */
+.upgraded.card-starter  .card-name { color: #d1d5db; }
+.upgraded.card-common   .card-name { color: #fcd34d; }
+.upgraded.card-uncommon .card-name { color: #86efac; }
+.upgraded.card-rare     .card-name { color: #fbbf24; }
+.upgraded.card-curse    .card-name { color: #c084fc; }
+.upgraded.card-event    .card-name { color: #7dd3fc; }
+
+/* ── Notes ───────────────────────────────────────────── */
+
+.run-notes {
+  padding: 20px 28px;
+  border-top: 1px solid #2a1f0e;
+  font-size: 0.9rem;
+  color: #9ca3af;
+  line-height: 1.6;
+}

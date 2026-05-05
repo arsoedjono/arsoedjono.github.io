@@ -1,0 +1,88 @@
+---
+layout: sts2-base
+---
+<div class="sts2-run-page">
+
+  <header class="run-header">
+    <div class="char-block">
+      <div class="char-portrait char-{{ page.character_class }}" data-character="{{ page.character_class }}">
+        <span class="char-initial">{{ page.character | slice: 0 }}</span>
+      </div>
+    </div>
+
+    <div class="run-stats">
+      <div class="stat stat-hp">
+        <span class="stat-icon hp-icon">♥</span>
+        <span class="stat-value">{{ page.hp }}/{{ page.max_hp }}</span>
+      </div>
+      <div class="stat stat-gold">
+        <span class="stat-icon gold-icon">⬤</span>
+        <span class="stat-value">{{ page.gold }}</span>
+      </div>
+      <div class="stat stat-energy">
+        {% for i in (1..page.energy) %}<span class="energy-pip"></span>{% endfor %}
+      </div>
+      <div class="stat stat-floor">
+        <span class="stat-icon">▲</span>
+        <span class="stat-value">{{ page.floor }}</span>
+      </div>
+      <div class="stat stat-time">
+        <span class="stat-icon">⏱</span>
+        <span class="stat-value">{{ page.time }}</span>
+      </div>
+    </div>
+
+    <div class="run-meta">
+      <div class="meta-date">{{ page.date }}</div>
+      <div class="meta-seed">Seed: {{ page.seed }}</div>
+      <div class="meta-mode">{{ page.mode }}</div>
+      <div class="meta-version">{{ page.version }}</div>
+    </div>
+  </header>
+
+  {% if page.outcome_quote %}
+  <div class="outcome-quote outcome-{{ page.outcome }}">"{{ page.outcome_quote }}"</div>
+  {% endif %}
+
+  <section class="acts">
+    {% for act in page.acts %}
+    <div class="act-row">
+      <span class="act-label">{{ act.name }}</span>
+      <div class="rooms">
+        {% for room in act.rooms %}<span class="room room-{{ room.type }}" data-room-type="{{ room.type }}" title="{{ room.type }}">{% case room.type %}{% when 'monster' %}M{% when 'elite' %}E{% when 'boss' %}B{% when 'event' %}?{% when 'rest' %}R{% when 'shop' %}${% when 'chest' %}T{% else %}?{% endcase %}</span>{% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+  <section class="relics">
+    <h2 class="section-heading">Relics ({{ page.relics.count }}):{% assign rsep = '' %}{% if page.relics.breakdown.ancient > 0 %}  {{ page.relics.breakdown.ancient }} Ancient{% assign rsep = ',' %}{% endif %}{% if page.relics.breakdown.rare > 0 %}{{ rsep }}  {{ page.relics.breakdown.rare }} Rare{% assign rsep = ',' %}{% endif %}{% if page.relics.breakdown.uncommon > 0 %}{{ rsep }}  {{ page.relics.breakdown.uncommon }} Uncommon{% assign rsep = ',' %}{% endif %}{% if page.relics.breakdown.common > 0 %}{{ rsep }}  {{ page.relics.breakdown.common }} Common{% assign rsep = ',' %}{% endif %}{% if page.relics.breakdown.starter > 0 %}{{ rsep }}  {{ page.relics.breakdown.starter }} Starter{% endif %}</h2>
+    <div class="relic-grid">
+      {% for relic in page.relics.items %}
+      <div class="relic relic-{{ relic.tier }}" data-relic="{{ relic.name | slugify }}" data-name="{{ relic.name }}">
+        <span class="relic-icon"></span>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="cards">
+    <h2 class="section-heading">Cards ({{ page.cards.count }}):{% assign csep = '' %}{% if page.cards.breakdown.event > 0 %}  {{ page.cards.breakdown.event }} Event{% assign csep = ',' %}{% endif %}{% if page.cards.breakdown.rare > 0 %}{{ csep }}  {{ page.cards.breakdown.rare }} Rare{% assign csep = ',' %}{% endif %}{% if page.cards.breakdown.uncommon > 0 %}{{ csep }}  {{ page.cards.breakdown.uncommon }} Uncommon{% assign csep = ',' %}{% endif %}{% if page.cards.breakdown.common > 0 %}{{ csep }}  {{ page.cards.breakdown.common }} Common{% assign csep = ',' %}{% endif %}{% if page.cards.breakdown.curse > 0 %}{{ csep }}  {{ page.cards.breakdown.curse }} Curse{% assign csep = ',' %}{% endif %}{% if page.cards.breakdown.starter > 0 %}{{ csep }}  {{ page.cards.breakdown.starter }} Starter{% endif %}</h2>
+    <div class="card-grid">
+      {% for card in page.cards.items %}
+      <div class="card-entry card-{{ card.tier }}{% if card.upgraded %} upgraded{% endif %}" data-card="{{ card.name | slugify }}">
+        <span class="card-icon"></span>
+        <span class="card-name">{% if card.count and card.count > 1 %}{{ card.count }}x {% endif %}{{ card.name }}{% if card.upgraded %}+{% endif %}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  {%- capture trimmed_content -%}{{ content | strip }}{%- endcapture -%}
+  {% if trimmed_content != '' %}
+  <section class="run-notes">
+    {{ content }}
+  </section>
+  {% endif %}
+
+</div>

@@ -1,0 +1,50 @@
+---
+layout: sts2-base
+id: sts2-runs-index
+title: "STS2 Runs"
+---
+<!--
+  HOW TO ADD A NEW RUN:
+  1. Get Unix epoch: date -j -f "%Y-%m-%d %H:%M:%S" "YYYY-MM-DD HH:MM:SS" +%s
+  2. Copy sts2/runs/1776578640.md → sts2/runs/{epoch}.md
+  3. Fill in YAML front matter from the in-game run summary screen
+  4. Commit & push — new run auto-appears here and at /sts2/runs/{epoch}
+-->
+<div class="sts2-index-page">
+  <header class="index-header">
+    <h1>STS2 Runs</h1>
+  </header>
+
+  <div class="runs-table-wrap">
+    <table class="runs-table">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Character</th>
+          <th>Outcome</th>
+          <th>Floor</th>
+          <th>Time</th>
+          <th>Seed</th>
+          <th>Version</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% assign runs = site.pages | where_exp: "p", "p.url contains '/sts2/runs/'" | where_exp: "p", "p.layout == 'sts2-run'" | sort: "run_id" | reverse %}
+        {% for run in runs %}
+        <tr class="run-row outcome-{{ run.outcome }}">
+          <td>{{ run.date }}</td>
+          <td class="char-cell char-{{ run.character_class }}">{{ run.character }}</td>
+          <td class="outcome-cell outcome-{{ run.outcome }}">{{ run.outcome | capitalize }}</td>
+          <td class="num-cell">{{ run.floor }}</td>
+          <td class="num-cell">{{ run.time }}</td>
+          <td><a href="{{ run.url | relative_url }}" class="seed-link">{{ run.seed }}</a></td>
+          <td class="dim-cell">{{ run.version }}</td>
+        </tr>
+        {% endfor %}
+        {% if runs.size == 0 %}
+        <tr><td colspan="7" class="empty-cell">No runs yet.</td></tr>
+        {% endif %}
+      </tbody>
+    </table>
+  </div>
+</div>
