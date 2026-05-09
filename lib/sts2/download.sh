@@ -60,7 +60,7 @@ while IFS= read -r url || [ -n "$url" ]; do
         ((failed++))
     fi
 
-    sleep 0.1
+    sleep 1
 
 done < "$input"
 
