@@ -1,0 +1,567 @@
+
+.badge-sts2_weakpotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -0px -0px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_vulnerablepotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -66px -0px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_touchofinsanity {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -0px -66px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_swiftpotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -66px -66px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_strengthpotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -132px -0px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_starpotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -132px -66px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_stableserum {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -0px -132px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_speedpotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -66px -132px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_soldiersstew {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -132px -132px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_sneckooil {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -198px -0px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_skillpotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -198px -66px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_shipinabottle {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -198px -132px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_shacklingpotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -0px -198px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_regenpotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -66px -198px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_radianttincture {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -132px -198px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_powerpotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -198px -198px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_powdereddemise {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -264px -0px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_potofghouls {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -264px -66px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_potionofdoom {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -264px -132px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_potionofcapacity {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -264px -198px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_potionofbinding {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -0px -264px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_potion-shapedrock {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -66px -264px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_poisonpotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -132px -264px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_orobicacid {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -198px -264px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_mazalethsgift {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -264px -264px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_luckytonic {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -330px -0px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_liquidmemories {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -330px -66px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_liquidbronze {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -330px -132px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_kingscourage {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -330px -198px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_heartofiron {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -330px -264px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_glowwaterpotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -0px -330px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_gigantificationpotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -66px -330px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_ghostinajar {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -132px -330px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_gamblersbrew {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -198px -330px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_fyshoil {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -264px -330px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_fruitjuice {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -330px -330px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_foulpotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -396px -0px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_fortifier {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -396px -66px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_focuspotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -396px -132px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_flexpotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -396px -198px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_firepotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -396px -264px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_fairyinabottle {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -396px -330px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_explosiveampoule {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -0px -396px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_essenceofdarkness {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -66px -396px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_entropicbrew {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -132px -396px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_energypotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -198px -396px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_duplicator {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -264px -396px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_dropletofprecognition {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -330px -396px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_distilledchaos {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -396px -396px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_dexteritypotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -462px -0px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_cureall {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -462px -66px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_cunningpotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -462px -132px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_cosmicconcoction {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -462px -198px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_colorlesspotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -462px -264px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_clarityextract {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -462px -330px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_bottledpotential {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -462px -396px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_bonebrew {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -0px -462px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_bloodpotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -66px -462px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_blockpotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -132px -462px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_blessingoftheforge {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -198px -462px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_beetlejuice {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -264px -462px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_attackpotion {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -330px -462px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-sts2_ashwater {
+  background-image: url('../../images/sts2/potions.png');
+  background-position: -396px -462px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}

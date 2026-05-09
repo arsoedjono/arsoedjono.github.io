@@ -9,4 +9,5 @@ _site
 vendor
 node_modules
 
-sts2/img
+lib/sts2/img
+.sprite-temp

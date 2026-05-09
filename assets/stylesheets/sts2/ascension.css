@@ -1,0 +1,18 @@
+
+.badge-sts2_ascensionmultiplayer {
+  background-image: url('../../images/sts2/ascension.png');
+  background-position: -0px -0px;
+  background-repeat: no-repeat;
+  width: 88px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_ascension {
+  background-image: url('../../images/sts2/ascension.png');
+  background-position: -90px -0px;
+  background-repeat: no-repeat;
+  width: 88px;
+  height: 128px;
+  display: inline-block;
+}

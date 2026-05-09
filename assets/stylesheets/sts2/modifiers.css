@@ -1,0 +1,162 @@
+
+.badge-sts2_mod_vintage {
+  background-image: url('../../images/sts2/modifiers.png');
+  background-position: -0px -0px;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.badge-sts2_mod_terminal {
+  background-image: url('../../images/sts2/modifiers.png');
+  background-position: -82px -0px;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.badge-sts2_mod_specialized {
+  background-image: url('../../images/sts2/modifiers.png');
+  background-position: -0px -82px;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.badge-sts2_mod_sealeddeck {
+  background-image: url('../../images/sts2/modifiers.png');
+  background-position: -82px -82px;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.badge-sts2_mod_prismatic {
+  background-image: url('../../images/sts2/modifiers.png');
+  background-position: -164px -0px;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.badge-sts2_mod_nightterrors {
+  background-image: url('../../images/sts2/modifiers.png');
+  background-position: -164px -82px;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.badge-sts2_mod_murderous {
+  background-image: url('../../images/sts2/modifiers.png');
+  background-position: -0px -164px;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.badge-sts2_mod_midas {
+  background-image: url('../../images/sts2/modifiers.png');
+  background-position: -82px -164px;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.badge-sts2_mod_insanity {
+  background-image: url('../../images/sts2/modifiers.png');
+  background-position: -164px -164px;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.badge-sts2_mod_hoarder {
+  background-image: url('../../images/sts2/modifiers.png');
+  background-position: -246px -0px;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.badge-sts2_mod_flight {
+  background-image: url('../../images/sts2/modifiers.png');
+  background-position: -246px -82px;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.badge-sts2_mod_draft {
+  background-image: url('../../images/sts2/modifiers.png');
+  background-position: -246px -164px;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.badge-sts2_mod_deadlyevents {
+  background-image: url('../../images/sts2/modifiers.png');
+  background-position: -0px -246px;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.badge-sts2_mod_cursedrun {
+  background-image: url('../../images/sts2/modifiers.png');
+  background-position: -82px -246px;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.badge-sts2_mod_charactercards {
+  background-image: url('../../images/sts2/modifiers.png');
+  background-position: -164px -246px;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.badge-sts2_mod_binary {
+  background-image: url('../../images/sts2/modifiers.png');
+  background-position: -246px -246px;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.badge-sts2_mod_biggamehunter {
+  background-image: url('../../images/sts2/modifiers.png');
+  background-position: -328px -0px;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.badge-sts2_mod_allstar {
+  background-image: url('../../images/sts2/modifiers.png');
+  background-position: -328px -82px;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}

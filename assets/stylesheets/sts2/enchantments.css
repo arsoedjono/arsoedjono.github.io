@@ -1,0 +1,207 @@
+
+.badge-enchant_vigorous {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -0px -0px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-enchant_tezcatarasember {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -66px -0px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-enchant_swift {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -0px -66px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-enchant_steady {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -66px -66px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-enchant_spiral {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -132px -0px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-enchant_sown {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -132px -66px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-enchant_slither {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -0px -132px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-enchant_sharp {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -66px -132px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-enchant_royallyapproved {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -132px -132px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-enchant_perfectfit {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -198px -0px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-enchant_nimble {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -198px -66px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-enchant_momentum {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -198px -132px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-enchant_instinct {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -0px -198px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-enchant_inky {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -66px -198px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-enchant_imbued {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -132px -198px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-enchant_goopy {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -198px -198px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-enchant_glam {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -264px -0px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-enchant_corrupted {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -264px -66px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-enchant_clone {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -264px -132px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-enchant_adroit {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -264px -198px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-120px-enchant_soulspower {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -0px -264px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-120px-enchant_slumberingessence {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -66px -264px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.badge-120px-enchant_favored {
+  background-image: url('../../images/sts2/enchantments.png');
+  background-position: -132px -264px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}

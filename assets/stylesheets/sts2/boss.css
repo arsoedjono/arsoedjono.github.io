@@ -1,0 +1,108 @@
+
+.badge-sts2_icon_waterfallgiantboss {
+  background-image: url('../../images/sts2/boss.png');
+  background-position: -0px -0px;
+  background-repeat: no-repeat;
+  width: 88px;
+  height: 88px;
+  display: inline-block;
+}
+
+.badge-sts2_icon_vantomboss {
+  background-image: url('../../images/sts2/boss.png');
+  background-position: -90px -0px;
+  background-repeat: no-repeat;
+  width: 88px;
+  height: 88px;
+  display: inline-block;
+}
+
+.badge-sts2_icon_thekinboss {
+  background-image: url('../../images/sts2/boss.png');
+  background-position: -0px -90px;
+  background-repeat: no-repeat;
+  width: 88px;
+  height: 88px;
+  display: inline-block;
+}
+
+.badge-sts2_icon_theinsatiableboss {
+  background-image: url('../../images/sts2/boss.png');
+  background-position: -90px -90px;
+  background-repeat: no-repeat;
+  width: 88px;
+  height: 88px;
+  display: inline-block;
+}
+
+.badge-sts2_icon_testsubjectboss {
+  background-image: url('../../images/sts2/boss.png');
+  background-position: -180px -0px;
+  background-repeat: no-repeat;
+  width: 88px;
+  height: 88px;
+  display: inline-block;
+}
+
+.badge-sts2_icon_soulfyshboss {
+  background-image: url('../../images/sts2/boss.png');
+  background-position: -180px -90px;
+  background-repeat: no-repeat;
+  width: 88px;
+  height: 88px;
+  display: inline-block;
+}
+
+.badge-sts2_icon_queenboss {
+  background-image: url('../../images/sts2/boss.png');
+  background-position: -0px -180px;
+  background-repeat: no-repeat;
+  width: 88px;
+  height: 88px;
+  display: inline-block;
+}
+
+.badge-sts2_icon_lagavulinmatriarchboss {
+  background-image: url('../../images/sts2/boss.png');
+  background-position: -90px -180px;
+  background-repeat: no-repeat;
+  width: 88px;
+  height: 88px;
+  display: inline-block;
+}
+
+.badge-sts2_icon_knowledgedemonboss {
+  background-image: url('../../images/sts2/boss.png');
+  background-position: -180px -180px;
+  background-repeat: no-repeat;
+  width: 88px;
+  height: 88px;
+  display: inline-block;
+}
+
+.badge-sts2_icon_kaisercrabboss {
+  background-image: url('../../images/sts2/boss.png');
+  background-position: -270px -0px;
+  background-repeat: no-repeat;
+  width: 88px;
+  height: 88px;
+  display: inline-block;
+}
+
+.badge-sts2_icon_doormakerboss {
+  background-image: url('../../images/sts2/boss.png');
+  background-position: -270px -90px;
+  background-repeat: no-repeat;
+  width: 88px;
+  height: 88px;
+  display: inline-block;
+}
+
+.badge-sts2_icon_ceremonialbeastboss {
+  background-image: url('../../images/sts2/boss.png');
+  background-position: -270px -180px;
+  background-repeat: no-repeat;
+  width: 88px;
+  height: 88px;
+  display: inline-block;
+}

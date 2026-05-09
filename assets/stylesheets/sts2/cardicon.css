@@ -1,0 +1,765 @@
+
+.badge-sts2_cardicon_status {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -0px -0px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_silent_skill_uncommon {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -130px -0px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_silent_skill_rare {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -0px -130px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_silent_skill_event {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -130px -130px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_silent_skill_common {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -260px -0px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_silent_skill_ancient {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -260px -130px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_silent_power_uncommon {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -0px -260px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_silent_power_rare {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -130px -260px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_silent_power_event {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -260px -260px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_silent_power_common {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -390px -0px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_silent_power_ancient {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -390px -130px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_silent_attack_uncommon {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -390px -260px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_silent_attack_rare {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -0px -390px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_silent_attack_common {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -130px -390px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_silent_attack_ancient {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -260px -390px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_regent_skill_uncommon {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -390px -390px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_regent_skill_rare {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -520px -0px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_regent_skill_common {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -520px -130px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_regent_skill_ancient {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -520px -260px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_regent_power_uncommon {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -520px -390px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_regent_power_rare {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -0px -520px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_regent_power_common {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -130px -520px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_regent_power_ancient {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -260px -520px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_regent_attack_uncommon {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -390px -520px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_regent_attack_rare {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -520px -520px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_regent_attack_common {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -650px -0px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_regent_attack_ancient {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -650px -130px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_quest {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -650px -260px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_necrobinder_skill_uncommon {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -650px -390px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_necrobinder_skill_rare {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -650px -520px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_necrobinder_skill_common {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -0px -650px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_necrobinder_skill_ancient {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -130px -650px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_necrobinder_power_uncommon {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -260px -650px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_necrobinder_power_rare {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -390px -650px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_necrobinder_power_common {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -520px -650px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_necrobinder_power_ancient {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -650px -650px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_necrobinder_attack_uncommon {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -780px -0px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_necrobinder_attack_rare {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -780px -130px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_necrobinder_attack_common {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -780px -260px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_necrobinder_attack_ancient {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -780px -390px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_ironclad_skill_uncommon {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -780px -520px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_ironclad_skill_rare {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -780px -650px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_ironclad_skill_event {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -0px -780px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_ironclad_skill_common {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -130px -780px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_ironclad_skill_ancient {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -260px -780px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_ironclad_power_uncommon {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -390px -780px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_ironclad_power_rare {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -520px -780px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_ironclad_power_common {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -650px -780px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_ironclad_power_ancient {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -780px -780px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_ironclad_attack_uncommon {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -910px -0px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_ironclad_attack_rare {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -910px -130px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_ironclad_attack_event {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -910px -260px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_ironclad_attack_common {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -910px -390px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_ironclad_attack_ancient {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -910px -520px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_defect_skill_uncommon {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -910px -650px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_defect_skill_rare {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -910px -780px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_defect_skill_event {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -0px -910px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_defect_skill_common {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -130px -910px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_defect_skill_ancient {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -260px -910px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_defect_power_uncommon {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -390px -910px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_defect_power_rare {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -520px -910px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_defect_power_event {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -650px -910px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_defect_power_common {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -780px -910px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_defect_power_ancient {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -910px -910px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_defect_attack_uncommon {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -1040px -0px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_defect_attack_rare {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -1040px -130px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_defect_attack_event {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -1040px -260px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_defect_attack_common {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -1040px -390px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_defect_attack_ancient {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -1040px -520px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_curse {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -1040px -650px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_colorless_skill_uncommon {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -1040px -780px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_colorless_skill_token {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -1040px -910px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_colorless_skill_rare {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -0px -1040px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_colorless_skill_event {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -130px -1040px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_colorless_skill_ancient {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -260px -1040px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_colorless_power_uncommon {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -390px -1040px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_colorless_power_token {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -520px -1040px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_colorless_power_rare {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -650px -1040px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_colorless_power_event {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -780px -1040px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_colorless_power_ancient {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -910px -1040px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_colorless_attack_uncommon {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -1040px -1040px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_colorless_attack_token {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -1170px -0px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_colorless_attack_rare {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -1170px -130px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_colorless_attack_event {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -1170px -260px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}
+
+.badge-sts2_cardicon_colorless_attack_ancient {
+  background-image: url('../../images/sts2/cardicon.png');
+  background-position: -1170px -390px;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+}

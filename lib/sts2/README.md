@@ -12,6 +12,9 @@
 - [Enchantments](https://slaythespire.wiki.gg/wiki/Category:Enchantments)
 - [Card Images](https://slaythespire.wiki.gg/wiki/Category:StS2_Card_Images) -- currently not saving this because of too many card images
 - [Map Icons](https://slaythespire.wiki.gg/wiki/Category:StS2_Map_Icons)
+- [Modifiers](https://slaythespire.wiki.gg/wiki/Category:StS2_Modifiers)
+- [Potions](https://slaythespire.wiki.gg/wiki/Slay_the_Spire_2:Potions_List)
+- [Relics](https://slaythespire.wiki.gg/wiki/Slay_the_Spire_2:Relics_List)
 
 2. Extract image URLs from each page:
    1. Open / modify HTML extractor script in `lib/sts2/html_extractors/*.js`

@@ -1,0 +1,54 @@
+
+.badge-120px-sts2_map-treasure {
+  background-image: url('../../images/sts2/map.png');
+  background-position: -0px -0px;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+}
+
+.badge-120px-sts2_map-restsite {
+  background-image: url('../../images/sts2/map.png');
+  background-position: -122px -0px;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+}
+
+.badge-120px-sts2_map-monster {
+  background-image: url('../../images/sts2/map.png');
+  background-position: -0px -122px;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+}
+
+.badge-120px-sts2_map-merchant {
+  background-image: url('../../images/sts2/map.png');
+  background-position: -122px -122px;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+}
+
+.badge-120px-sts2_map-event {
+  background-image: url('../../images/sts2/map.png');
+  background-position: -244px -0px;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+}
+
+.badge-120px-sts2_map-elite {
+  background-image: url('../../images/sts2/map.png');
+  background-position: -244px -122px;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+}
